@@ -23,7 +23,7 @@ def search_youtube_tutorials(tool_name):
         request = youtube.search().list(
             q=f"{tool_name} tutorial",
             part='snippet',
-            maxResults=2,
+            maxResults=1,
             type='video'
         )
         response = request.execute()

@@ -27,7 +27,7 @@ def get_ai_recommendations(job_title: str, job_responsibility: str, workflows: l
             - Job Responsibilities: {job_responsibility}
             - Workflows to Automate: {workflows_text}
 
-            For each workflow, recommend exactly 5 different AI tools that can help automate that workflow.
+            For each workflow, recommend exactly 3 different AI tools that can help automate that workflow.
 
             Respond in structured JSON format grouped by workflow name.
             """ 
